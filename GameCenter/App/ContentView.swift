@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  GameCenter
 //
-//  Created by Dicoding Reviewer on 09/09/21.
+//  Created by Dicoding Reviewer on 06/09/21.
 //
 
 import SwiftUI

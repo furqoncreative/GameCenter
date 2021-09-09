@@ -1,0 +1,79 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
+        "state": {
+          "branch": null,
+          "revision": "f96b619bcb2383b43d898402283924b80e2c4bae",
+          "version": "5.4.3"
+        }
+      },
+      {
+        "package": "CoreModule",
+        "repositoryURL": "https://github.com/furqoncreative/CoreModule.git",
+        "state": {
+          "branch": null,
+          "revision": "e9fef2d8433c25a4b15f298e6bb1dfa95c0865fc",
+          "version": "1.1.1"
+        }
+      },
+      {
+        "package": "GameModule",
+        "repositoryURL": "https://github.com/furqoncreative/GameModule.git",
+        "state": {
+          "branch": null,
+          "revision": "4699ae7cf0416fde5d6dc990fd86fea999564e0d",
+          "version": "1.0.0"
+        }
+      },
+      {
+        "package": "Realm",
+        "repositoryURL": "https://github.com/realm/realm-cocoa.git",
+        "state": {
+          "branch": null,
+          "revision": "e7e7f072a1571435049683ca43c51501de2612fd",
+          "version": "10.14.0"
+        }
+      },
+      {
+        "package": "RealmDatabase",
+        "repositoryURL": "https://github.com/realm/realm-core",
+        "state": {
+          "branch": null,
+          "revision": "fdb2157346dcdf0c2677b3608d9a4c30315fa7f0",
+          "version": "11.3.1"
+        }
+      },
+      {
+        "package": "SDWebImage",
+        "repositoryURL": "https://github.com/SDWebImage/SDWebImage.git",
+        "state": {
+          "branch": null,
+          "revision": "76dd4b49110b8624317fc128e7fa0d8a252018bc",
+          "version": "5.11.1"
+        }
+      },
+      {
+        "package": "SDWebImageSwiftUI",
+        "repositoryURL": "https://github.com/SDWebImage/SDWebImageSwiftUI.git",
+        "state": {
+          "branch": null,
+          "revision": "cd8625b7cf11a97698e180d28bb7d5d357196678",
+          "version": "2.0.2"
+        }
+      },
+      {
+        "package": "SwiftUIX",
+        "repositoryURL": "https://github.com/SwiftUIX/SwiftUIX.git",
+        "state": {
+          "branch": null,
+          "revision": "6aa1b4ec2e0d3e5cfc7494c84519402a16dd1316",
+          "version": "0.0.8"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
