@@ -23,28 +23,25 @@ struct DetailView: View {
         
         ZStack {
             ColorManager.backgroundColor.ignoresSafeArea(edges: .all)
-            Group {
-                if presenter.isLoading {
-                    loadingIndicator
-                } else
-                if presenter.isError {
-                    errorIndicator
-                } else {
-                   content
-                }
-            }
-            .onAppear {
-                if self.presenter.item == nil {
-                    self.presenter.getGame(request: game.id)
-                }
-            }.alert(isPresented: $showingAlert) {
-                Alert(
-                    title: Text("Oops!"),
-                    message: Text("Something wrong!"),
-                    dismissButton: .default(Text("OK"))
-                )
+            
+            if presenter.isLoading {
+                loadingIndicator
+            } else
+            if presenter.isError {
+                errorIndicator
+            } else {
+                content
             }
         }
+        .onAppear {
+            self.presenter.getGame(request: game.id)
+        }.alert(isPresented: $showingAlert) {
+            Alert(
+                title: Text("Oops!"),
+                message: Text("Something wrong!"),
+                dismissButton: .default(Text("OK"))
+            )
+        }.navigationViewStyle(StackNavigationViewStyle())
         .navigationBarItems(trailing: Group {
             self.presenter.item?.favorite == true ? Button(action: {
                 self.presenter.updateFavoriteGame(request: game.id)
